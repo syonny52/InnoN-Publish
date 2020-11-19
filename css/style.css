@@ -18414,7 +18414,9 @@ code {
     background: linear-gradient(to bottom, #2c3040, #2c3040);
 }
 .card .card-body {
-    padding: 2.5rem;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
 }
 .card .card-body + .card-body {
     padding-top: 1rem;
