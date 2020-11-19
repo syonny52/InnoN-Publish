@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="css/style.css">
         <!-- End layout styles -->
         <link rel="shortcut icon" href="images/innon_shortcut.png"/>
+        <link rel="stylesheet" href="css/geumju.css">
     </head>
     <body>
         <div class="container-scroller">
@@ -391,11 +392,11 @@
 
                         <div class="row">
                             <div class="col col-md-4 grid-margin">
+                               <div class="clearfix">
+                                    <h4 class="card-title float-left">총 생산량</h4>
+                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="clearfix">
-                                            <h4 class="card-title float-left">총 생산량</h4>
-                                        </div>
                                         <dl>
                                             <dt>연간 생산량</dt>
                                             <dd>4385</dd>
@@ -416,15 +417,15 @@
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
+                                <div class="clearfix">
+                                    <h4 class="card-title float-left">업무 인원 현황</h4>
+                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="clearfix">
-                                            <h4 class="card-title float-left">업무 인원 현황</h4>
-                                            <div id="" class="float-right">
-                                                <select>
-                                                    <option>9월 3주차</option>
-                                                </select>
-                                            </div>
+                                        <div id="" class="float-right">
+                                            <select>
+                                                <option>9월 3주차</option>
+                                            </select>
                                         </div>
                                         <canvas id="myChart"></canvas>
                                         </canvas>
@@ -432,14 +433,16 @@
                                             id="myChart-legend"
                                             class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
                                     </div>
+                                    <canvas id="traffic-chart" width="575" height="287" class="chartjs-render-monitor">
+                                    </canvas>
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
+                               <div class="clearfix">
+                                    <h4 class="card-title float-left">총 수율</h4>
+                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="clearfix">
-                                            <h4 class="card-title float-left">총 수율</h4>
-                                        </div>
                                         <dl>
                                             <dt>연간 생산량</dt>
                                             <dd></dd>
@@ -462,6 +465,9 @@
                         </div>
                         <div class="row">
                             <div class="col col-md-4 grid-margin">
+                                <div class="clearfix">
+                                    <h4 class="card-title float-left">클레임 수</h4>
+                                </div>
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="clearfix">
@@ -471,15 +477,15 @@
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
+                               <div class="clearfix">
+                                    <h4 class="card-title float-left">업무 인원 현황</h4>
+                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="clearfix">
-                                            <h4 class="card-title float-left">업무 인원 현황</h4>
-                                            <div id="" class="float-right">
-                                                <select>
-                                                    <option>품목</option>
-                                                </select>
-                                            </div>
+                                        <div id="" class="float-right">
+                                            <select>
+                                                <option>품목</option>
+                                            </select>
                                         </div>
                                         <canvas id="traffic-chart" width="575" height="287" class="chartjs-render-monitor">
                                         </canvas>
@@ -487,15 +493,15 @@
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
+                                <div class="clearfix">
+                                    <h4 class="card-title float-left">생산량</h4>
+                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="clearfix">
-                                            <h4 class="card-title float-left">생산량</h4>
-                                            <div id="" class="float-right">
-                                                <select>
-                                                    <option>품목</option>
-                                                </select>
-                                            </div>
+                                        <div id="" class="float-right">
+                                            <select>
+                                                <option>품목</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
@@ -503,20 +509,22 @@
                         </div>
                         <div class="row">
                             <div class="col col-md-8 grid-margin">
+                                <div class="clearfix">
+                                    <h4 class="card-title float-left">작업실별 불량률</h4>
+                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="clearfix">
-                                            <h4 class="card-title float-left">작업실별 불량률</h4>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
+                                <div class="clearfix">
+                                    <h4 class="card-title float-left">에너지 사용량</h4>
+                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="clearfix">
-                                            <h4 class="card-title float-left">에너지 사용량</h4>
-                                        </div>
+                                        
                                         <canvas id="traffic-chart" width="575" height="287" class="chartjs-render-monitor">
                                         </canvas>
                                     </div>
@@ -525,11 +533,12 @@
                         </div>
                         <div class="row">
                             <div class="col col-md-12 grid-margin">
+                                <div class="clearfix">
+                                    <h4 class="card-title float-left">설비 가동 현황</h4>
+                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="clearfix">
-                                            <h4 class="card-title float-left">설비 가동 현황</h4>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
