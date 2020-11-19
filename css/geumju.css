@@ -1,8 +1,0 @@
-.card{border-radius: 10px;}
-.clearfix h4{font-size: 16.5pt;}
-.card .card-body .clearfix h4{font-size: 13.5pt;}
-.main-panel .content-wrapper .row .card-body > dl{display: inline-block; width: 46%; height: 115px; border-radius: 4px; background-color: #fff; padding: 12px 0; max-width: 100%; margin-right: 1rem;}
-.main-panel .content-wrapper .row .card-body dl dt{text-align: center; font-size: 13pt; color: #333; margin-bottom: 20px; font-weight: 800;}
-.main-panel .content-wrapper .row .card-body dl dd{text-align: center; font-size: 20pt; color: #4667cc; margin-bottom: 0; font-weight: 500;}
-.main-panel .content-wrapper .row .card-body > dl:nth-child(2){margin-right: 0;}
-.main-panel .content-wrapper .row .card-body > dl:nth-child(4){margin-right: 0;}
