@@ -377,7 +377,7 @@
                                 <span class="page-title-icon bg-gradient-primary text-white mr-2">
                                     <i class="fas fa-home fa-1x mt-2"></i>
                                 </span>
-                                종합모니터링 - 종합 KPI 조회 test02
+                                종합모니터링 - 종합 KPI 조회
                             </h3>                            
                             <nav aria-label="breadcrumb">
                                 <ul class="breadcrumb">
@@ -392,11 +392,11 @@
 
                         <div class="row">
                             <div class="col col-md-4 grid-margin">
-                               <div class="clearfix">
-                                    <h4 class="card-title float-left">총 생산량</h4>
-                                </div>
                                 <div class="card">
                                     <div class="card-body">
+                                        <div class="clearfix">
+                                            <h4 class="card-title float-left">총 생산량</h4>
+                                        </div>
                                         <dl>
                                             <dt>연간 생산량</dt>
                                             <dd>4385</dd>
@@ -417,15 +417,15 @@
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
-                                <div class="clearfix">
-                                    <h4 class="card-title float-left">업무 인원 현황</h4>
-                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div id="" class="float-right">
-                                            <select>
-                                                <option>9월 3주차</option>
-                                            </select>
+                                        <div class="clearfix">
+                                            <h4 class="card-title float-left">업무 인원 현황</h4>
+                                            <div id="" class="float-right">
+                                                <select>
+                                                    <option>9월 3주차</option>
+                                                </select>
+                                            </div>
                                         </div>
                                     </div>
                                     <canvas id="traffic-chart" width="575" height="287" class="chartjs-render-monitor">
@@ -433,11 +433,11 @@
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
-                               <div class="clearfix">
-                                    <h4 class="card-title float-left">총 수율</h4>
-                                </div>
                                 <div class="card">
                                     <div class="card-body">
+                                        <div class="clearfix">
+                                            <h4 class="card-title float-left">총 수율</h4>
+                                        </div>
                                         <dl>
                                             <dt>연간 생산량</dt>
                                             <dd></dd>
@@ -460,9 +460,6 @@
                         </div>
                         <div class="row">
                             <div class="col col-md-4 grid-margin">
-                                <div class="clearfix">
-                                    <h4 class="card-title float-left">클레임 수</h4>
-                                </div>
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="clearfix">
@@ -472,31 +469,43 @@
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
-                               <div class="clearfix">
-                                    <h4 class="card-title float-left">업무 인원 현황</h4>
-                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div id="" class="float-right">
-                                            <select>
-                                                <option>품목</option>
-                                            </select>
+                                        <div class="clearfix">
+                                            <h4 class="card-title float-left">업무 인원 현황</h4>
+                                            <div id="" class="float-right">
+                                                <select>
+                                                    <option>품목</option>
+                                                </select>
+                                            </div>
+                                            <canvas id="traffic-chart" width="575" height="287" class="chartjs-render-monitor">
+                                            </canvas>
                                         </div>
-                                        <canvas id="traffic-chart" width="575" height="287" class="chartjs-render-monitor">
-                                        </canvas>
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
-                                <div class="clearfix">
-                                    <h4 class="card-title float-left">생산량</h4>
-                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <div id="" class="float-right">
-                                            <select>
-                                                <option>품목</option>
-                                            </select>
+                                        <div class="clearfix">
+                                            <h4 class="card-title float-left">생산량</h4>
+                                            <div id="" class="float-right">
+                                                <select>
+                                                    <option>품목</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <p class="pro-name">품목 A</p>
+                                            <div class="pro-cont">
+                                                <div>
+                                                    <p>87219</p><br/>
+                                                    <p class="ml">30ml (bag)</p>
+                                                </div>
+                                                <div class="per">
+                                                    <p>2.4%</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -504,36 +513,203 @@
                         </div>
                         <div class="row">
                             <div class="col col-md-8 grid-margin">
-                                <div class="clearfix">
-                                    <h4 class="card-title float-left">작업실별 불량률</h4>
-                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        
+                                        <div class="clearfix">
+                                            <h4 class="card-title float-left">작업실별 불량률</h4>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-md-4 grid-margin">
-                                <div class="clearfix">
-                                    <h4 class="card-title float-left">에너지 사용량</h4>
-                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        
-                                        <canvas id="traffic-chart" width="575" height="287" class="chartjs-render-monitor">
-                                        </canvas>
+                                        <div class="clearfix">
+                                            <h4 class="card-title float-left">에너지 사용량</h4>
+                                        </div>
+                                        <div class="enr-cont">
+                                            <div class="enr-usg">
+                                                <div class="all-use">
+                                                    <p>총 전력 사용량</p>
+                                                    <div class="enr-cir">
+                                                        <p>1,947</p>
+                                                        <p class="unit">KMh</p>
+                                                    </div>
+                                                </div>
+                                                <div class="energy-eff">
+                                                    <p>에너지 효율</p>
+                                                    <div class="enr-cir">
+                                                        <p>72%</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-md-12 grid-margin">
-                                <div class="clearfix">
-                                    <h4 class="card-title float-left">설비 가동 현황</h4>
-                                </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        
+                                        <div class="clearfix">
+                                            <h4 class="card-title float-left">설비 가동 현황</h4>
+                                        </div>
+                                        <div class="sulbe-cont">
+                                            <div class="sulbe-graph-title">
+                                                <div class="fl-fs">
+                                                    <p>설비 1</p>
+                                                </div>
+                                                <div class="fr">
+                                                    <p>총 가동시간 : 360m</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="sulbe-graph">
+                                                <ul>
+                                                    <li><img src="images/Common/temper.png" alt=""></li>
+                                                    <li>온도</li>
+                                                    <li><img src="images/Common/temper-graph.png" alt=""></li>
+                                                    <li>24</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/rpm.png" alt=""></li>
+                                                    <li>RPM</li>
+                                                    <li><img src="images/Common/rpm-graph.png" alt=""></li>
+                                                    <li>19</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/yourang.png" alt=""></li>
+                                                    <li>유량</li>
+                                                    <li><img src="images/Common/yourang-graph.png" alt=""></li>
+                                                    <li>09</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="sulbe-cont">
+                                            <div class="sulbe-graph-title">
+                                                <div class="fl-fs">
+                                                    <p>설비 2</p>
+                                                </div>
+                                                <div class="fr">
+                                                    <p>총 가동시간 : 360m</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="sulbe-graph">
+                                                <ul>
+                                                    <li><img src="images/Common/temper.png" alt=""></li>
+                                                    <li>온도</li>
+                                                    <li><img src="images/Common/temper-graph.png" alt=""></li>
+                                                    <li>24</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/rpm.png" alt=""></li>
+                                                    <li>RPM</li>
+                                                    <li><img src="images/Common/rpm-graph.png" alt=""></li>
+                                                    <li>19</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/yourang.png" alt=""></li>
+                                                    <li>유량</li>
+                                                    <li><img src="images/Common/yourang-graph.png" alt=""></li>
+                                                    <li>09</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="sulbe-cont">
+                                            <div class="sulbe-graph-title">
+                                                <div class="fl-fs">
+                                                    <p>설비 3</p>
+                                                </div>
+                                                <div class="fr">
+                                                    <p>총 가동시간 : 360m</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="sulbe-graph">
+                                                <ul>
+                                                    <li><img src="images/Common/temper.png" alt=""></li>
+                                                    <li>온도</li>
+                                                    <li><img src="images/Common/temper-graph.png" alt=""></li>
+                                                    <li>24</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/rpm.png" alt=""></li>
+                                                    <li>RPM</li>
+                                                    <li><img src="images/Common/rpm-graph.png" alt=""></li>
+                                                    <li>19</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/yourang.png" alt=""></li>
+                                                    <li>유량</li>
+                                                    <li><img src="images/Common/yourang-graph.png" alt=""></li>
+                                                    <li>09</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="sulbe-cont">
+                                            <div class="sulbe-graph-title">
+                                                <div class="fl-fs">
+                                                    <p>설비 4</p>
+                                                </div>
+                                                <div class="fr">
+                                                    <p>총 가동시간 : 360m</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="sulbe-graph">
+                                                <ul>
+                                                    <li><img src="images/Common/temper.png" alt=""></li>
+                                                    <li>온도</li>
+                                                    <li><img src="images/Common/temper-graph.png" alt=""></li>
+                                                    <li>24</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/rpm.png" alt=""></li>
+                                                    <li>RPM</li>
+                                                    <li><img src="images/Common/rpm-graph.png" alt=""></li>
+                                                    <li>19</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/yourang.png" alt=""></li>
+                                                    <li>유량</li>
+                                                    <li><img src="images/Common/yourang-graph.png" alt=""></li>
+                                                    <li>09</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="sulbe-cont">
+                                            <div class="sulbe-graph-title">
+                                                <div class="fl-fs">
+                                                    <p>설비 5</p>
+                                                </div>
+                                                <div class="fr">
+                                                    <p>총 가동시간 : 360m</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="sulbe-graph">
+                                                <ul>
+                                                    <li><img src="images/Common/temper.png" alt=""></li>
+                                                    <li>온도</li>
+                                                    <li><img src="images/Common/temper-graph.png" alt=""></li>
+                                                    <li>24</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/rpm.png" alt=""></li>
+                                                    <li>RPM</li>
+                                                    <li><img src="images/Common/rpm-graph.png" alt=""></li>
+                                                    <li>19</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><img src="images/Common/yourang.png" alt=""></li>
+                                                    <li>유량</li>
+                                                    <li><img src="images/Common/yourang-graph.png" alt=""></li>
+                                                    <li>09</li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
