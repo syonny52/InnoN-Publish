@@ -1,7 +1,7 @@
 /* chart.js chart examples */
 
 // chart colors
-var colors = ['#ffffff','#79bef7','#0676d7','#c3e6cb','#dc3545','#6c757d'];
+var colors = ['#ffffff','#79bef7','#0676d7','#ffffff','#fe7996','#ad2e4d'];
 
 /* 3 donut charts */
 var donutOptions = {
@@ -35,7 +35,7 @@ var chDonutData2 = {
     labels: ['Wips', 'Pops', 'Dags'],
     datasets: [
       {
-        backgroundColor: colors.slice(0,3),
+        backgroundColor: colors.slice(3,6),
         borderWidth: 0,
         data: [40, 45, 30]
       }
