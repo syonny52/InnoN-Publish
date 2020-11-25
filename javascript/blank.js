@@ -8,7 +8,11 @@ var green = ['#ffffff','#27d2b8','#1f4c59','#ffffff','#fe7996','#ad2e4d'];
 /* 3 donut charts */
 var donutOptions = {
   cutoutPercentage: 85, 
-  legend: {position:'bottom', padding:5, labels: {pointStyle:'circle', usePointStyle:true}}
+  legend: {
+      position:'bottom', 
+      padding:5, 
+      labels: {pointStyle:'circle', usePointStyle:true}
+    }
 };
 
 // donut 1
@@ -22,7 +26,6 @@ var chDonutData1 = {
       }
     ]
 };
-
 var chDonut1 = document.getElementById("chDonut1");
 if (chDonut1) {
   new Chart(chDonut1, {

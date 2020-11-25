@@ -2355,7 +2355,7 @@ section {
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'NanumSquareRound',sans-serif; 
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -2482,7 +2482,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family:'NanumSquareRound',sans-serif;
     font-size: 1em;
 }
 
@@ -10389,7 +10389,7 @@ a.close.disabled {
     z-index: 1070;
     display: block;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family:'NanumSquareRound',sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -10503,7 +10503,7 @@ a.close.disabled {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family:'NanumSquareRound',sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -14406,7 +14406,7 @@ button.bg-dark:hover {
 }
 
 .text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-family:'NanumSquareRound',sans-serif;
 }
 
 .text-justify {
@@ -15096,35 +15096,6 @@ input:focus {
     outline: none;
 }
 
-/* Fonts */
-@font-face {
-    font-family: 'ubuntu-light';
-    src: url("../../fonts/Ubuntu/Ubuntu-Light.eot");
-    /* IE9 Compat Modes */
-    src: url("../../fonts/Ubuntu/Ubuntu-Light.woff2") format("woff2"), url("../../fonts/Ubuntu/Ubuntu-Light.woff") format("woff"), url("../../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: 'ubuntu-regular';
-    src: url("../../fonts/Ubuntu/Ubuntu-Regular.eot");
-    /* IE9 Compat Modes */
-    src: url("../../fonts/Ubuntu/Ubuntu-Regular.woff2") format("woff2"), url("../../fonts/Ubuntu/Ubuntu-Regular.woff") format("woff"), url("../../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: 'ubuntu-medium';
-    src: url("../../fonts/Ubuntu/Ubuntu-Medium.eot");
-    /* IE9 Compat Modes */
-    src: url("../../fonts/Ubuntu/Ubuntu-Medium.woff2") format("woff2"), url("../../fonts/Ubuntu/Ubuntu-Medium.woff") format("woff"), url("../../fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: 'ubuntu-bold';
-    src: url("../../fonts/Ubuntu/Ubuntu-Bold.eot");
-    /* IE9 Compat Modes */
-    src: url("../../fonts/Ubuntu/Ubuntu-Bold.woff2") format("woff2"), url("../../fonts/Ubuntu/Ubuntu-Bold.woff") format("woff"), url("../../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
-}
-
 .text-twitter {
     color: #2caae1;
 }
@@ -15208,7 +15179,7 @@ input:focus {
 /* Typography */
 body {
     font-size: 1rem;
-    font-family: "ubuntu-regular", sans-serif;
+    font-family: 'NanumSquareRound';
     font-weight: initial;
     line-height: normal;
     -webkit-font-smoothing: antialiased;
@@ -15226,7 +15197,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "ubuntu-medium", sans-serif;
+    font-family: "NanumSquareRound", sans-serif;
 }
 
 p {
@@ -15425,7 +15396,7 @@ pre {
 code {
     padding: 5px;
     color: #fe7c96;
-    font-family: "ubuntu-light", sans-serif;
+    font-family: "NanumSquareRound", sans-serif;
     font-size: 0.875rem;
     border-radius: 4px;
 }
@@ -15611,18 +15582,6 @@ code {
     flex-grow: 1;
 }
 
-.font-weight-light {
-    font-family: "ubuntu-light", sans-serif;
-}
-
-.font-weight-bold {
-    font-family: "ubuntu-bold", sans-serif;
-}
-
-.font-weight-normal {
-    font-family: "ubuntu-regular", sans-serif;
-}
-
 .font-weight-medium {
     font-weight: 500;
 }
@@ -15731,7 +15690,7 @@ code {
 
 .bg-gradient-primary {
     background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff)) !important;
-    background: linear-gradient(to right, #183baf, #4178e1) !important;
+    background: linear-gradient(to right, #118af7, #006acd) !important
 }
 
 .bg-gradient-secondary {
@@ -20088,7 +20047,6 @@ dl,
 ol,
 ul {
     padding-left: 1rem;
-    font-size: 1rem;
 }
 dl li,
 ol li,
@@ -22767,7 +22725,7 @@ ul li {
 }
 .email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user .u-name {
     margin: 0;
-    font-family: "ubuntu-regular", sans-serif;
+    font-family: "NanumSquareRound", sans-serif;
     font-size: 0.875rem;
     line-height: 1;
     color: #ffffff;
@@ -22949,7 +22907,7 @@ ul li {
     left: 50%;
     z-index: 1000;
     font-size: 0.875rem;
-    font-family: "ubuntu-regular", sans-serif;
+    font-family: "NanumSquareRound", sans-serif;
     font-weight: initial;
     line-height: 1.85;
     border-radius: 10px;
@@ -22958,7 +22916,7 @@ ul li {
 }
 .avgrund-popin p {
     font-size: 0.875rem;
-    font-family: "ubuntu-regular", sans-serif;
+    font-family: "NanumSquareRound", sans-serif;
     font-weight: initial;
 }
 
@@ -27474,7 +27432,7 @@ footer h4 a {
 .sidebar {
     min-height: calc(100vh - 70px);
     background: #2c3040;
-    font-family: "ubuntu-regular", sans-serif;
+    font-family: "NanumSquareRound", sans-serif;
     padding: 0;
     width: 260px;
     z-index: 11;
@@ -27577,17 +27535,17 @@ footer h4 a {
     content: url("../images/arrow_down.svg");
 }
 .sidebar .nav .nav-item.active {
-    background: #2c354f;
+    background: linear-gradient(to right, #118af7, #006acd) !important;
 }
 .sidebar .nav .nav-item.active > .nav-link .menu-title {
-    color: #3e8cff;
+    color: #fff;
     font-family: "ubuntu-medium", sans-serif;
 }
 .sidebar .nav .nav-item.active > .nav-link i {
-    color: #3e8cff;
+    color: #fff;
 }
 .sidebar .nav .nav-item:hover .menu-title {
-    color: #3e8cff;
+    color: #fff;
 }
 .sidebar .nav .nav-item.nav-profile .nav-link {
     height: auto;
