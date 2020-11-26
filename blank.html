@@ -392,7 +392,7 @@
                         <!-- 헤더 끝-->
 
                         <div class="row">
-                            <div class="col col-md-4 grid-margin">
+                            <div class="col col-md-4 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="clearfix">
@@ -417,7 +417,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col col-md-4 grid-margin">
+                            <div class="col col-md-4 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="clearfix">
@@ -428,12 +428,12 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <canvas id="chDonut1" width="60" height="30" class="mg-t10 chartjs-render-monitor">
+                                        <canvas id="chDonut1" width="420" height="220" class="mg-t10 chartjs-render-monitor">
                                         </canvas>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col col-md-4 grid-margin">
+                            <div class="col col-md-4 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="clearfix">
@@ -465,7 +465,23 @@
                                     <div class="card-body">
                                         <div class="clearfix">
                                             <h4 class="card-title float-left">클레임 수</h4>
+                                            <div id="visit-sale-chart-legend-dark" class="rounded-legend legend-horizontal legend-top-right float-right">
+                                                <ul>
+                                                    <li>
+                                                        <span class="legend-dots" style="background:linear-gradient(to right, rgba(218, 140, 255, 1), rgba(154, 85, 255, 1))">
+                                                        </span>CHN
+                                                    </li>
+                                                    <li><span class="legend-dots" style="background:linear-gradient(to right, rgba(255, 191, 150, 1), rgba(254, 112, 150, 1))">
+                                                        </span>USA
+                                                    </li>
+                                                    <li>
+                                                        <span class="legend-dots" style="background:linear-gradient(to right, rgba(54, 215, 232, 1), rgba(177, 148, 250, 1))">
+                                                        </span>UK
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
+                                        <canvas id="visit-sale-chart-dark" class="mt-4 chartjs-render-monitor" style="display: block; width: 500; height: 220px;" width="870" height="435"></canvas>
                                     </div>
                                 </div>
                             </div>
