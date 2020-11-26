@@ -60,7 +60,7 @@ ul, li{list-style: none;}
 .equip-graph-title .fl-fs p::before{content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background-color: #a8a8a8; margin-right: 10px; margin-left: 5px; vertical-align: middle;}
 .equip-graph-title .fr p{font-size: 0.875em; padding: 0; margin: 0;}
 .equip-graph{background-color: #222531; width: 100%; border-radius: 10px; display: flex; justify-content: space-around; padding: 16px 20px;}
-.equip-graph ul{display: flex; justify-content: space-between; width: 33%; font-size: 0.95em; padding: 0; margin: 0 5% 0 0;}
+.equip-graph ul{display: flex; justify-content: space-between; width: 33%; font-size: 0.95em; padding: 0; margin: 0 3% 0 0;}
 .equip-graph ul:last-child{margin-right: 0;}
 .equip-graph ul li{line-height: 38px; vertical-align: bottom; color:#fff;}
 .equip-graph ul li:nth-child(1) {width:26%;}
