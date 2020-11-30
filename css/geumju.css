@@ -7,12 +7,12 @@ ul, li{list-style: none;}
 /* 총 생산량, 총 수율 CSS */
 .card{border-radius: 10px; height: 100%; font-size: 1.2em;}
 .card .card-body .clearfix h4{font-size: 1.025em; font-weight: 700; line-height: 1;}
-.content-wrapper .card-body .box-type01 > dl{display: inline-block; width: 45%; border-radius: 4px; padding: 5% 1%; max-width: 100%; margin-right: 1rem;}
+.content-wrapper .card-body .box-type01 > dl{display: inline-block; width: 45%; border-radius: 4px; padding: 5% 1%; max-width: 100%; margin-right: 0.4em; margin-bottom: 0.7em;}
 .content-wrapper .card-body .box-type01 > dl:nth-child(1){background : linear-gradient(90deg, #fdd3c0, #fe7496);}
 .content-wrapper .card-body .box-type01 > dl:nth-child(2){background : linear-gradient(90deg, #9dcff7, #0988f5);}
 .content-wrapper .card-body .box-type01 > dl:nth-child(3){background : linear-gradient(90deg, #97e9cb, #05c0a4);}
 .content-wrapper .card-body .box-type01 > dl:nth-child(4){background : linear-gradient(90deg, #abb6f7, #7b38c7);}
-.content-wrapper .card-body .box-type01 dl dt{text-align: center; color: #fff; margin-bottom: 20px; font-size: 0.85em;}
+.content-wrapper .card-body .box-type01 dl dt{font-weight: 500; text-align: center; color: #fff; margin-bottom: 20px; font-size: 0.85em;}
 .content-wrapper .card-body .box-type01 dl dd{text-align: center; font-size: 1.2em; color: #fff; margin-bottom: 0; font-weight: 700;}
 .content-wrapper .card-body .box-type01 > dl:nth-child(2){margin-right: 0;}
 .content-wrapper .card-body .box-type01 > dl:nth-child(4){margin-right: 0;}
@@ -21,38 +21,36 @@ ul, li{list-style: none;}
 .content-wrapper .card-body .box-type01 dl dd span{font-size: 13.5px;}
 
 /* 생산량 CSS */
-.product{text-align: center; margin-top: 12%;}
+.product{text-align: center;}
 .product p{font-size: 1.25em;}
 .product .pro-name{font-size: 0.95em; display: inline-block; margin-bottom: 22px; font-weight: 700; color: #fff;}
 .product .ml{font-size: 0.95em;}
-.pro-cont{display: flex; justify-content: space-around; background-color: #424553; border-radius: 5px; padding: 20px 10px;}
+.pro-cont{display: flex; justify-content: space-around; background-color: #424553; border-radius: 5px; padding: 8% 4%;}
 .pro-cont div p{display: inline; color: #fff;}
 .pro-cont div:first-child{border-right: #72747d 1px solid; width: 50%; text-align:center;}
 .pro-cont{display: flex; justify-content: space-around; background-color: #424553; border-radius: 5px; font-weight: 500; width: 100%;}
-.pro-cont .per{margin-top: 5px; width: 50%; }
-.pro-cont .per span{font-size: 0.95em;}
-.pro-cont .per p::before{background: url(../images/Common/arrow.png) no-repeat; content: ""; width: 35px; height: 47px; display: inline-block; vertical-align: middle; margin-right: 15px;}
+.pro-cont .ico-per-down{margin-top: 5px; width: 50%; }
+.pro-cont .ico-per-downspan{font-size: 0.95em;}
+.pro-cont .ico-per-down p::before{background: url(../images/Common/arrow.png) no-repeat; content: ""; width: 35px; height: 47px; display: inline-block; vertical-align: middle; margin-right: 5%;}
 
 /* 작업실별 불량류 */
-.workplace-cont{flex-direction: row; flex-wrap: wrap;}
+.workplace-cont{flex-direction: row; flex-wrap: wrap; margin-bottom:0;}
 .workplace-cont li {width:20%;}
 
 
 /* 에너지 사용량 CSS */
-.enr-cont{padding-top: 20px;}
 .enr-usg{display: flex;width: 100%; height: 100%; justify-content: center;}
 .enr-usg p{font-size: 0.95em; color: #fff;}
-.enr-cont{padding-top: 20px;}
-.all-use{border-right: #72747d 1px solid; width: 100%; padding: 1% 3%;}
-.energy-eff{width: 100%; padding: 1% 3%;}
-.enr-cont .circle-type01{max-width: 132px; border-radius: 50%; max-height: 132px; width: 100%; line-height: 1; display: inline-block; box-sizing: border-box;}
-.enr-cont .circle-type01 p{font-size: 1.25em; font-weight: 700; color: #fff; display: inline-block; box-sizing: border-box; margin-bottom: 0;}
-.all-use .circle-type01{background : linear-gradient(180deg, #45b2ff, #0057b8); padding: 42px 36px;}
-.energy-eff .circle-type01{background : linear-gradient(180deg, #b895ff, #4c2dbf); padding: 52px 42px;}
+.all-use{border-right: #72747d 1px solid; width: 50%; padding: 1% 3%;}
+.energy-eff{width: 50%; padding: 1% 3%;}
+.enr-cont .circle-type01{max-width: 140px; border-radius: 50%; max-height: 140px; width: 100%; line-height: 1; display: inline-block; box-sizing: border-box; }
+.enr-cont .circle-type01 p{font-size: 1.25em; font-weight: 700; color: #fff; display: inline-block; box-sizing: border-box; margin-bottom: 0; width: 100%;}
+.all-use .circle-type01{background : linear-gradient(180deg, #45b2ff, #0057b8); padding: 20% 16%;}
+.energy-eff .circle-type01{background : linear-gradient(180deg, #b895ff, #4c2dbf); padding: 22% 16%;}
+.energy-eff .circle-type01 p{padding: 10%;}
 .all-use .circle-type01 .unit{font-size: 0.75em;}
 
 /* 설비 가동 현황 CSS */
-.equip-title{margin-bottom: 38px !important;}
 .equip-cont{margin-bottom: 32px;}
 .equip-cont:last-child{margin-bottom: 0;}
 .equip-graph-title{display: flex; justify-content: space-between; margin-bottom: 12px;}
@@ -77,9 +75,13 @@ ul, li{list-style: none;}
 @media screen and (max-width:1300px){
     select{padding: 5px 15px 5px 3px;}
     .card{font-size: 1em;}
-    .content-wrapper .card-body .box-type01 dl dt {font-size:0.75em;}
-    .content-wrapper .card-body .box-type01 dl dd {font-size:0.8em;}
+    .content-wrapper .card-body .box-type01 dl dt {font-size:0.85em;}
+    .content-wrapper .card-body .box-type01 dl dd {font-size:1em;}
     .content-wrapper .card-body .box-type01 dl dd span {font-size:0.4em;}
+
+    /* 생산량 */
+    .pro-cont{font-size: 0.9em;}
+    .pro-cont .ico-per-down p::before{width: 25px; height: 35px; background-size: 100%;}
 }
 
 @media screen and (min-width:1200px) and (max-width:1300px){
@@ -90,34 +92,31 @@ ul, li{list-style: none;}
 
 @media screen and (max-width:1200px){
     .content-wrapper .card-body .box-type01 > dl{width: 42%;}
+    .content-wrapper .card-body .box-type01 dl dd{font-size: 0.8em;}
 
     /* 작업실별 불량류 */
     .workplace-cont li {width:33%;}
 
     /*에너지사용량*/
     .enr-cont{padding-right: 0;}
-    .enr-usg{display: inline-block;}
-    .all-use{border-right: none; padding-right: 0; margin-right: 0; border-bottom: #72747d 1px solid; padding-bottom: 15%; margin-bottom: 15%;}
-  
+    .enr-usg{display: inline-block; width:100%;}
+    .all-use{width:100%; border-right: none; padding-right: 0; margin-right: 0; border-bottom: #72747d 1px solid; padding-bottom: 15%; margin-bottom: 15%;}
+    .energy-eff {width:100%;}
+
     /* 설비 가동 현황 CSS */
     .equip-graph ul li{line-height: 28px;}
     .equip-graph ul li:first-child::before{width: 30px; height: 30px; background-size: 100%;}
 }
 
-@media screen and (max-width:1024px){
-    select{padding: 5px 14px 5px 4px;}
-   
-
-    /* 생산량 CSS */
-    .pro-cont .per{margin-left: 20px;}
-    .pro-cont .per p::before{margin-right: 15px;}
-}
-
 @media screen and (max-width:768px){
+    /* Common */
+    .page-header {flex-flow:column wrap;}
+    .card{font-size: 1.1em;}
+    .card .card-body {margin-top:0;}
     select{padding: 5px 15px 5px 3px;}
 
     .col-md-4{flex: 100%; max-width: 100%;}
-    .content-wrapper .card-body .box-type01 dl{padding: 1%; width: 45%;}
+    .content-wrapper .card-body .box-type01 dl{padding: 5% 1%; width: 45%;}
     .content-wrapper .card-body .box-type01 dl dt{font-size: 0.95em;}
     .content-wrapper .card-body .box-type01 dl dd{font-size: 1.25em;}
 
@@ -132,9 +131,13 @@ ul, li{list-style: none;}
 
     /* 설비 가동 현황 CSS */
     .equip-graph{flex-flow: column wrap; height: 100%; padding: 10px;}
-    .equip-graph ul{margin-bottom: 5px; width: 100%;}
+    .equip-graph ul{margin-bottom: 5px; width: 100%; font-size: 0.9em;}
     .equip-graph ul:last-child{margin-bottom: 0}
     .equip-graph ul li:nth-child(2) img {width:90%;}
     .equip-graph ul .temper:first-child::before{margin-right: 13%;}
     .equip-graph ul .flux:first-child::before{margin-right: 13%;}
+}
+
+@media screen and (min-width:530px) and (max-width:768px){
+    .enr-cont .circle-type01{padding: 15% 12%;}
 }
